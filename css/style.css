@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.t1{
+    float: left;
+    width: 10%;
+    background-color: #CCCCCC;
+    height: 115vh;
+}
+.t2{
+    float: right;
+    width: 10%;
+    height: 115vh;
+    background-color: #CCCCCC;
+}
+.container{
+    width: 80%;
+    height: 115vh;
+    float: left;
+    font-family: Verdana;
+    position: relative;
+}
+p{
+    size: 15px;
+}
+.menu{
+    width: 30%;
+    background-color: #2D3E50;
+    height: 100%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius:50px ;
+    color: #019CDF;
+    float: left;
+    z-index: 1;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    
+}
+.img img{
+    border-radius: 50%;
+    padding: 5px;
+    background-color: white;
+    margin-top: 30px;
+}
+h2{
+    border-bottom: 3px solid #019CDF;
+    margin: 5px 10px;
+}
+.kynang p{
+    margin: 10px 10px;
+    size: 16px;
+}
+.kynang{
+    margin-top: 80px;
+}
+.sothich p{
+    margin: 10px 10px;
+    size: 16px;
+}
+.sothich{
+    margin-top: 40px;
+}
+.hoctap{
+    width: 70%;
+    float: right;
+    height: 100%;
+    z-index: 1;
+}
+h1{
+    color: #019CDF;
+    margin-bottom: 10px;
+}
+h3{
+    color: #2D3E50;
+}
+.main{
+    margin: 100px 50px;
+}
+.lichsu{
+    color: #019CDF;
+    padding-top: 25px;
+}
+.lichsu p{
+    margin: 10px 10px;
+    size: 16px;
+}
+.ketqua{
+    color: #019CDF;
+    padding-top: 45px;
+}
+.a{
+    display: inline;
+    width: 80%;
+    margin: 0 auto;
+}
+.a2{
+    width: 14.28%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #CCCCCC;
+    background-color: #019CDF;
+    color: white;
+    padding: 7.4px 0;
+}
+.a1{
+    width: 40.85%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #CCCCCC;
+    background-color: #019CDF;
+    color: white;
+    padding: 7.4px 0;
+    margin-left: 1%;
+}
+.a4{
+    width: 14.28%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #CCCCCC;
+    padding: 7.4px 0;
+}
+.a3{
+    width: 40.85%;
+    float: left;
+    border: 1px solid #CCCCCC;
+    padding: 7.4px 0;
+    margin-left: 1%;
+    padding-left: 1% !important;
+}
+.b{
+    width: 97.9452%;
+    float: left;
+    border: 1px solid #CCCCCC;
+    padding: 7.4px 0;
+    margin-left: 1%;
+    padding-left: 1%;
+}
+.info{
+    width: 100%;
+    background-color: #019CDF;
+    height: 45px;
+    z-index: 2;
+    position: absolute;
+    top: 27%;
+}
+.info p{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    float: left;
+    padding: 13px 0;
+    z-index: 3;
+}
